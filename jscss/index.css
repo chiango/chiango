@@ -1,0 +1,105 @@
+.blank{
+	border-style:solid;
+	border-width:3px;
+	border-color:red;
+}
+
+.head{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height: 30%;
+	
+}
+
+body{
+	background-image: url("https://lh3.googleusercontent.com/FzmNieFlXOmQuqNVQyhbyl_KPq99AYdSiN2Xk5G_p6jIJmet_Xu1CUovgsfuFJKGgx3zHwL6lxPIzmSen3SjJuffHTHPkUXzd90SchB-m1AgSfsXNdL7YEND1Y0MJJu9xzcpkQA55zK85OQ2XPuE2644MAvO3aJZfAenz7QZvEC0806voz1JBPPLAYf_9-fgCE1CgNKUeRNd-OHgDdg-hMMyVXO8vLRph2jqGh2C_B_Pm2Q2P9451lwOjOQQ3CPE1pjKE8ui5eQGrf-i1UoLVZPbh3lfki7Gqd7U3-BBhK03Otd_1wezn7Bt7GCOd8dtFJT3Kje_kNbk05vFemnZGbYCXjqfRlMkgCvu_zwApT0VAK3kAaiEJyTZK75mRG31h5dMeieHZ5jCBi989vDOPJ-39wz-JEQPv_7oASJpLR0hBjWWSjOJDYCT431jbK0hC8t9FL_H5Egl1foCzYfNnCVc6wRRClqQP24oJfCwDg3R75JPofmsizBxjVGwrRpgX2SEeKhHiB8c1Syz-_J2P-YiXYtSFgcJXHiS9OHOuN4=w1200-h896-no");
+}
+.head h1{
+	text-align:center;
+	margin-top:10px;
+	font-size: 3rem;
+	color:yellow;
+}
+
+.login, .signup{
+	position:absolute;
+	top:20%;
+	width:50%;
+	height:20%;
+}
+.signup{
+	right:0px;
+	background-color:lightsteelblue;
+}
+.login{
+	left:0px;
+	background-color: lightseagreen;
+}
+.login h1, .signup h1{
+	text-align:center;
+}
+
+#email,#password,#username,#submit,#first,#last,#confirm{
+	font-size:1em;
+}
+
+#first,#last,#signup #email,#username,#signup #password,#confirm{
+	position:absolute;
+}
+
+#first,#last{top:5%;}
+#first{left:5%;}
+#last{right:5%;}
+
+#signup #email, #username{left:30%;}
+#signup #email{top:20%;}
+#username{bottom:35%;}
+
+#signup #password,#confirm{top:40%;}
+#signup #password{left:5%;}
+#confirm{right:5%;}
+
+#login,#signup{
+	position: absolute;
+	background-color: cornsilk;
+	width:80%;
+	height:50%;
+	left:10%;
+	top:20%;
+}
+#login #email{
+	display:block;
+	margin: auto;
+	margin-top:10%;
+}
+#login #password{
+	display:block;
+	margin:auto;
+	margin-top:10%;
+}
+#login a{
+	position:absolute;
+	left:5%;
+	bottom:10%;
+}
+
+#login #submit,#signup #submit{
+	position:absolute;
+	bottom:10%;
+	right:5%;
+	width:30%;
+	height:15%;
+	background-color:orange;
+	border: 4px solid pink;
+}
+.login #error,.signup #error{
+	border-style: groove;
+	border-color:red;
+	padding:3px;
+	color:red;
+	position:absolute;
+	left:5px;
+	top:50px;
+}

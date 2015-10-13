@@ -1,0 +1,123 @@
+/*the friends bar */
+	/*the existing first bar*/
+.friends{
+	position:absolute; left:0px; top:20%;
+	width:25%; height:80%;
+	background-color: OrangeRed;
+}
+
+.exist, .search, .confirm{
+	position:absolute; left:0px; top:0px;
+	width:100%; height:100%;
+}
+.exist{background: Chocolate;}
+.search{background: IndianRed;}
+.confirm{background: LimeGreen;}
+
+
+.friends .tab_content{
+	position:absolute; left:0px; top:0px;
+	width:100%; height:80%;
+}
+.friends .friend_buttons{
+	position:absolute; left:0px; bottom:0px;
+	width:100%; height:20%;
+	background-color: black;
+}
+.friends .friend_buttons button{
+	margin-top:10%;
+	display:inline;
+	width:30%; height:50%;
+}
+
+
+.exist h2,.search h2{height:10%;}
+.exist ul{
+	position:absolute; top:15%; right:15%; left:5%;
+	height:60%;
+	overflow:scroll;
+	border: 2px solid LawnGreen;
+}
+
+
+.search .search_by{
+	position:absolute; left:0px; top:0px;
+	height:20%; width:100%;
+	border:1px solid Maroon;
+}
+.search .search_by h2{
+	font-size: x-large;
+	text-align: left;
+	font-family:fantasy;
+}
+.search .search_by #method{
+	position:absolute; right:0px; top:0px;
+}
+.search .search_by #searchbar{
+	position:absolute; right:0px; top:30%;
+	width:40%;
+}
+.search_box{
+	border: 2px solid navy;
+	width:100px; height:60px;
+	background: Gainsboro;
+	display:inline;
+}
+.search_box h3{
+	font-size: 0.8em;
+	color:Indigo;
+	font-family:cursive;
+}
+.search .exact_match{
+	position: absolute; left:0px; top:20%;
+	width:100%; height:20%;
+	background:GreenYellow;
+	overflow-y: scroll;
+}
+.search .exact_match p{
+	position: absolute; right:0px; top:0px;
+	font-family:monospace;
+}
+.search .rough_match{
+	position: absolute; top:55%;
+	height:30%; width:100%;
+	border:1px solid Maroon;
+}
+
+
+
+.header,.groups,.page{
+	position:absolute;
+}
+.groups{
+	width:25%;
+	height:80%;
+	top:20%;
+}
+.header{
+	background-color: yellow;
+	width:100%;
+	height:20%;
+	left:0px;
+	top:0px;
+}
+.page{
+	background-color: green;
+	width:50%;
+	height:75%;
+	left:25%;
+	top:20%;
+}
+
+.groups{
+	background-color: red;
+	right:0px;
+}
+
+.logout_button{
+	position:absolute;
+	right:0px;
+	top:0px;
+	width:100px;
+	height:50px;
+}
